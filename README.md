@@ -1,7 +1,24 @@
 # Receipt Processor
 This is the implementation of Receipt Processor API specification described here - https://github.com/fetch-rewards/receipt-processor-challenge
 
+## Tech stack
+- Java 17
+- Spring Boot 3
+- In-memory H2 DB (for convinience)
+- Project Lombok - to reduce boilerplate code
+- ModelMapper - to simplify object mapping and data transformation between different object models
+- Springdoc OpenAPI - automatic generation of an OpenAPI specification (formerly known as Swagger) and a web UI for interacting with the API
+
+## Highlights
+- New rules can be added without changing of underlying service
+- Points calculation is cached
+- Added unit tests
+- In-memory DB Web UI is available (see below)
+- Web UI to test REST API endpoints is available too (see below)
+
 ## Installation
+There is no need to install Java or Maven - only Docker is required.
+
 Clone the repository:
 ```
 git clone https://github.com/shushkevich/receipt-processor.git
