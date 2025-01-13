@@ -12,6 +12,7 @@ This is the implementation of Receipt Processor API specification described here
 ## Highlights
 - New rules can be added without changing of underlying service
 - Points calculation is cached
+- Input validation
 - Added unit tests
 - In-memory DB Web UI is available (see below)
 - Web UI to test REST API endpoints is available too (see below)
